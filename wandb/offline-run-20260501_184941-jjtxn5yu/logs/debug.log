@@ -1,0 +1,23 @@
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_setup.py:_flush():81] Current SDK version is 0.26.1
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_setup.py:_flush():81] Configure stats pid to 931856
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_init.py:setup_run_log_directory():723] Logging user logs to /root/ssd/DLMvsARM_Fair/wandb/offline-run-20260501_184941-jjtxn5yu/logs/debug.log
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_init.py:setup_run_log_directory():724] Logging internal logs to /root/ssd/DLMvsARM_Fair/wandb/offline-run-20260501_184941-jjtxn5yu/logs/debug-internal.log
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_init.py:init():850] calling init triggers
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_init.py:init():855] wandb.init called with sweep_config: {}
+config: {'model_type': 'dlm', 'dataset': 'iwslt2017', 'subset_size': 1000, 'noise_rate': 0.3, 'batch_size': 2, 'epochs': 3, 'lr': 0.0002, 'output_dir': 'checkpoints', '_wandb': {}}
+2026-05-01 18:49:41,315 INFO    MainThread:931856 [wandb_init.py:init():898] starting backend
+2026-05-01 18:49:41,572 INFO    MainThread:931856 [wandb_init.py:init():913] sending inform_init request
+2026-05-01 18:49:41,826 INFO    MainThread:931856 [wandb_init.py:init():918] backend started and connected
+2026-05-01 18:49:41,829 INFO    MainThread:931856 [wandb_init.py:init():988] updated telemetry
+2026-05-01 18:49:41,834 INFO    MainThread:931856 [wandb_init.py:init():1011] communicating run to backend with 90.0 second timeout
+2026-05-01 18:49:41,841 INFO    MainThread:931856 [wandb_init.py:init():1056] starting run threads in backend
+2026-05-01 18:49:41,979 INFO    MainThread:931856 [wandb_run.py:_console_start():2554] atexit reg
+2026-05-01 18:49:41,979 INFO    MainThread:931856 [wandb_run.py:_redirect():2403] redirect: wrap_raw
+2026-05-01 18:49:41,979 INFO    MainThread:931856 [wandb_run.py:_redirect():2472] Wrapping output streams.
+2026-05-01 18:49:41,979 INFO    MainThread:931856 [wandb_run.py:_redirect():2495] Redirects installed.
+2026-05-01 18:49:41,980 INFO    MainThread:931856 [wandb_init.py:init():1094] run started, returning control to user process
+2026-05-01 19:07:42,940 INFO    MainThread:931856 [wandb_run.py:_finish():2321] finishing run diffusion_vs_ar_llm_fair/jjtxn5yu
+2026-05-01 19:07:42,942 INFO    MainThread:931856 [wandb_run.py:_atexit_cleanup():2520] got exitcode: 0
+2026-05-01 19:07:42,942 INFO    MainThread:931856 [wandb_run.py:_restore():2502] restore
+2026-05-01 19:07:42,942 INFO    MainThread:931856 [wandb_run.py:_restore():2508] restore done

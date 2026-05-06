@@ -1,0 +1,112 @@
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+/usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:949: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:03<00:09,  3.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:06<00:06,  3.31s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:10<00:00,  2.65s/it]
+Generating AR:   0%|          | 0/100 [00:00<?, ?it/s]/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:492: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.6` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/usr/local/lib/python3.10/dist-packages/transformers/generation/configuration_utils.py:497: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.9` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   1%|          | 1/100 [00:14<23:21, 14.15s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   2%|▏         | 2/100 [00:27<22:44, 13.92s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   3%|▎         | 3/100 [00:41<22:17, 13.79s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   4%|▍         | 4/100 [00:55<21:57, 13.73s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   5%|▌         | 5/100 [01:08<21:40, 13.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   6%|▌         | 6/100 [01:22<21:25, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   7%|▋         | 7/100 [01:36<21:12, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   8%|▊         | 8/100 [01:49<20:56, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:   9%|▉         | 9/100 [02:03<20:42, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  10%|█         | 10/100 [02:17<20:28, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  11%|█         | 11/100 [02:30<20:14, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  12%|█▏        | 12/100 [02:44<19:59, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  13%|█▎        | 13/100 [02:57<19:47, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  14%|█▍        | 14/100 [03:11<19:32, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  15%|█▌        | 15/100 [03:25<19:19, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  16%|█▌        | 16/100 [03:38<19:04, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  17%|█▋        | 17/100 [03:52<18:50, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  18%|█▊        | 18/100 [04:06<18:36, 13.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  19%|█▉        | 19/100 [04:19<18:22, 13.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  20%|██        | 20/100 [04:33<18:08, 13.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  21%|██        | 21/100 [04:46<17:56, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  22%|██▏       | 22/100 [05:00<17:43, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  23%|██▎       | 23/100 [05:14<17:29, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  24%|██▍       | 24/100 [05:27<17:15, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  25%|██▌       | 25/100 [05:41<17:02, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  26%|██▌       | 26/100 [05:54<16:47, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  27%|██▋       | 27/100 [06:08<16:33, 13.61s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  28%|██▊       | 28/100 [06:22<16:21, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  29%|██▉       | 29/100 [06:35<16:08, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  30%|███       | 30/100 [06:49<15:55, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  31%|███       | 31/100 [07:03<15:42, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  32%|███▏      | 32/100 [07:16<15:29, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  33%|███▎      | 33/100 [07:30<15:13, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  34%|███▍      | 34/100 [07:44<14:59, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  35%|███▌      | 35/100 [07:57<14:46, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  36%|███▌      | 36/100 [08:11<14:34, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  37%|███▋      | 37/100 [08:25<14:21, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  38%|███▊      | 38/100 [08:38<14:06, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  39%|███▉      | 39/100 [08:52<13:51, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  40%|████      | 40/100 [09:06<13:37, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  41%|████      | 41/100 [09:19<13:24, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  42%|████▏     | 42/100 [09:33<13:10, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  43%|████▎     | 43/100 [09:46<12:57, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  44%|████▍     | 44/100 [10:00<12:43, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  45%|████▌     | 45/100 [10:14<12:30, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  46%|████▌     | 46/100 [10:27<12:16, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  47%|████▋     | 47/100 [10:41<12:04, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  48%|████▊     | 48/100 [10:55<11:50, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  49%|████▉     | 49/100 [11:08<11:36, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  50%|█████     | 50/100 [11:22<11:22, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  51%|█████     | 51/100 [11:36<11:09, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  52%|█████▏    | 52/100 [11:49<10:55, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  53%|█████▎    | 53/100 [12:03<10:41, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  54%|█████▍    | 54/100 [12:17<10:28, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  55%|█████▌    | 55/100 [12:30<10:15, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  56%|█████▌    | 56/100 [12:44<10:01, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  57%|█████▋    | 57/100 [12:58<09:48, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  58%|█████▊    | 58/100 [13:11<09:33, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  59%|█████▉    | 59/100 [13:25<09:19, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  60%|██████    | 60/100 [13:39<09:05, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  61%|██████    | 61/100 [13:52<08:51, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  62%|██████▏   | 62/100 [14:06<08:37, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  63%|██████▎   | 63/100 [14:20<08:24, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  64%|██████▍   | 64/100 [14:33<08:10, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  65%|██████▌   | 65/100 [14:47<07:56, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  66%|██████▌   | 66/100 [15:00<07:43, 13.64s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  67%|██████▋   | 67/100 [15:14<07:29, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  68%|██████▊   | 68/100 [15:28<07:15, 13.62s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  69%|██████▉   | 69/100 [15:41<07:02, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  70%|███████   | 70/100 [15:55<06:48, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  71%|███████   | 71/100 [16:09<06:35, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  72%|███████▏  | 72/100 [16:22<06:21, 13.63s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  73%|███████▎  | 73/100 [16:36<06:08, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  74%|███████▍  | 74/100 [16:50<05:55, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  75%|███████▌  | 75/100 [17:03<05:41, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  76%|███████▌  | 76/100 [17:17<05:28, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  77%|███████▋  | 77/100 [17:31<05:14, 13.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  78%|███████▊  | 78/100 [17:44<05:01, 13.70s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  79%|███████▉  | 79/100 [17:58<04:47, 13.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  80%|████████  | 80/100 [18:12<04:33, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  81%|████████  | 81/100 [18:25<04:19, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  82%|████████▏ | 82/100 [18:39<04:05, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  83%|████████▎ | 83/100 [18:53<03:52, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  84%|████████▍ | 84/100 [19:06<03:38, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  85%|████████▌ | 85/100 [19:20<03:24, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  86%|████████▌ | 86/100 [19:34<03:11, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  87%|████████▋ | 87/100 [19:47<02:57, 13.65s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  88%|████████▊ | 88/100 [20:01<02:44, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  89%|████████▉ | 89/100 [20:15<02:30, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  90%|█████████ | 90/100 [20:28<02:16, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  91%|█████████ | 91/100 [20:42<02:02, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  92%|█████████▏| 92/100 [20:56<01:49, 13.66s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  93%|█████████▎| 93/100 [21:09<01:35, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  94%|█████████▍| 94/100 [21:23<01:22, 13.70s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  95%|█████████▌| 95/100 [21:37<01:08, 13.70s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  96%|█████████▌| 96/100 [21:50<00:54, 13.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  97%|█████████▋| 97/100 [22:04<00:41, 13.69s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  98%|█████████▊| 98/100 [22:18<00:27, 13.68s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR:  99%|█████████▉| 99/100 [22:31<00:13, 13.67s/it]Setting `pad_token_id` to `eos_token_id`:128001 for open-end generation.
+Generating AR: 100%|██████████| 100/100 [22:45<00:00, 13.66s/it]Generating AR: 100%|██████████| 100/100 [22:45<00:00, 13.66s/it]
+Scoring AR:   0%|          | 0/100 [00:00<?, ?it/s]Scoring AR:   1%|          | 1/100 [00:00<00:19,  5.09it/s]Scoring AR:   2%|▏         | 2/100 [00:00<00:24,  4.04it/s]Scoring AR:   3%|▎         | 3/100 [00:00<00:21,  4.54it/s]Scoring AR:   4%|▍         | 4/100 [00:00<00:19,  4.82it/s]Scoring AR:   5%|▌         | 5/100 [00:01<00:19,  4.98it/s]Scoring AR:   6%|▌         | 6/100 [00:01<00:18,  5.08it/s]Scoring AR:   7%|▋         | 7/100 [00:01<00:21,  4.42it/s]Scoring AR:   8%|▊         | 8/100 [00:01<00:19,  4.67it/s]Scoring AR:   9%|▉         | 9/100 [00:01<00:21,  4.24it/s]Scoring AR:  10%|█         | 10/100 [00:02<00:22,  3.99it/s]Scoring AR:  11%|█         | 11/100 [00:02<00:22,  4.01it/s]Scoring AR:  12%|█▏        | 12/100 [00:02<00:21,  4.03it/s]Scoring AR:  13%|█▎        | 13/100 [00:03<00:25,  3.36it/s]Scoring AR:  14%|█▍        | 14/100 [00:03<00:24,  3.56it/s]Scoring AR:  15%|█▌        | 15/100 [00:03<00:24,  3.53it/s]Scoring AR:  16%|█▌        | 16/100 [00:03<00:22,  3.67it/s]Scoring AR:  17%|█▋        | 17/100 [00:04<00:21,  3.77it/s]Scoring AR:  18%|█▊        | 18/100 [00:04<00:19,  4.13it/s]Scoring AR:  19%|█▉        | 19/100 [00:04<00:19,  4.09it/s]Scoring AR:  20%|██        | 20/100 [00:04<00:19,  4.09it/s]Scoring AR:  21%|██        | 21/100 [00:05<00:20,  3.88it/s]Scoring AR:  22%|██▏       | 22/100 [00:05<00:19,  3.94it/s]Scoring AR:  23%|██▎       | 23/100 [00:05<00:19,  3.95it/s]Scoring AR:  24%|██▍       | 24/100 [00:05<00:19,  3.98it/s]Scoring AR:  25%|██▌       | 25/100 [00:06<00:17,  4.30it/s]Scoring AR:  26%|██▌       | 26/100 [00:06<00:18,  4.02it/s]Scoring AR:  27%|██▋       | 27/100 [00:06<00:16,  4.34it/s]Scoring AR:  28%|██▊       | 28/100 [00:06<00:18,  4.00it/s]Scoring AR:  29%|██▉       | 29/100 [00:07<00:18,  3.81it/s]Scoring AR:  30%|███       | 30/100 [00:07<00:18,  3.87it/s]Scoring AR:  31%|███       | 31/100 [00:07<00:16,  4.21it/s]Scoring AR:  32%|███▏      | 32/100 [00:07<00:17,  3.97it/s]Scoring AR:  33%|███▎      | 33/100 [00:08<00:17,  3.82it/s]Scoring AR:  34%|███▍      | 34/100 [00:08<00:15,  4.17it/s]Scoring AR:  35%|███▌      | 35/100 [00:08<00:14,  4.45it/s]Scoring AR:  36%|███▌      | 36/100 [00:08<00:15,  4.08it/s]Scoring AR:  37%|███▋      | 37/100 [00:09<00:16,  3.86it/s]Scoring AR:  38%|███▊      | 38/100 [00:09<00:14,  4.18it/s]Scoring AR:  39%|███▉      | 39/100 [00:09<00:14,  4.13it/s]Scoring AR:  40%|████      | 40/100 [00:09<00:13,  4.42it/s]Scoring AR:  41%|████      | 41/100 [00:10<00:13,  4.29it/s]Scoring AR:  42%|████▏     | 42/100 [00:10<00:12,  4.55it/s]Scoring AR:  43%|████▎     | 43/100 [00:10<00:11,  4.75it/s]Scoring AR:  44%|████▍     | 44/100 [00:10<00:11,  4.90it/s]Scoring AR:  45%|████▌     | 45/100 [00:11<00:14,  3.75it/s]Scoring AR:  46%|████▌     | 46/100 [00:11<00:14,  3.83it/s]Scoring AR:  47%|████▋     | 47/100 [00:11<00:13,  3.88it/s]Scoring AR:  48%|████▊     | 48/100 [00:11<00:12,  4.22it/s]Scoring AR:  49%|████▉     | 49/100 [00:11<00:11,  4.49it/s]Scoring AR:  50%|█████     | 50/100 [00:12<00:10,  4.70it/s]Scoring AR:  51%|█████     | 51/100 [00:12<00:11,  4.21it/s]Scoring AR:  52%|█████▏    | 52/100 [00:12<00:11,  4.17it/s]Scoring AR:  53%|█████▎    | 53/100 [00:12<00:11,  4.14it/s]Scoring AR:  54%|█████▍    | 54/100 [00:13<00:13,  3.42it/s]Scoring AR:  55%|█████▌    | 55/100 [00:13<00:13,  3.43it/s]Scoring AR:  56%|█████▌    | 56/100 [00:13<00:12,  3.43it/s]Scoring AR:  57%|█████▋    | 57/100 [00:14<00:14,  3.05it/s]Scoring AR:  58%|█████▊    | 58/100 [00:14<00:11,  3.50it/s]Scoring AR:  59%|█████▉    | 59/100 [00:14<00:11,  3.63it/s]Scoring AR:  60%|██████    | 60/100 [00:14<00:10,  3.75it/s]Scoring AR:  61%|██████    | 61/100 [00:15<00:10,  3.84it/s]Scoring AR:  62%|██████▏   | 62/100 [00:15<00:09,  3.91it/s]Scoring AR:  63%|██████▎   | 63/100 [00:15<00:08,  4.24it/s]Scoring AR:  64%|██████▍   | 64/100 [00:15<00:07,  4.50it/s]Scoring AR:  65%|██████▌   | 65/100 [00:16<00:08,  4.14it/s]Scoring AR:  66%|██████▌   | 66/100 [00:16<00:08,  3.89it/s]Scoring AR:  67%|██████▋   | 67/100 [00:16<00:08,  3.95it/s]Scoring AR:  68%|██████▊   | 68/100 [00:16<00:07,  4.28it/s]Scoring AR:  69%|██████▉   | 69/100 [00:17<00:06,  4.54it/s]Scoring AR:  70%|███████   | 70/100 [00:17<00:06,  4.38it/s]Scoring AR:  71%|███████   | 71/100 [00:17<00:06,  4.26it/s]Scoring AR:  72%|███████▏  | 72/100 [00:17<00:06,  4.21it/s]Scoring AR:  73%|███████▎  | 73/100 [00:18<00:06,  3.95it/s]Scoring AR:  74%|███████▍  | 74/100 [00:18<00:06,  4.28it/s]Scoring AR:  75%|███████▌  | 75/100 [00:18<00:05,  4.54it/s]Scoring AR:  76%|███████▌  | 76/100 [00:18<00:05,  4.72it/s]Scoring AR:  77%|███████▋  | 77/100 [00:18<00:05,  4.23it/s]Scoring AR:  78%|███████▊  | 78/100 [00:19<00:04,  4.50it/s]Scoring AR:  79%|███████▉  | 79/100 [00:19<00:04,  4.69it/s]Scoring AR:  80%|████████  | 80/100 [00:19<00:04,  4.47it/s]Scoring AR:  81%|████████  | 81/100 [00:19<00:04,  4.32it/s]Scoring AR:  82%|████████▏ | 82/100 [00:20<00:04,  4.25it/s]Scoring AR:  83%|████████▎ | 83/100 [00:20<00:03,  4.52it/s]Scoring AR:  84%|████████▍ | 84/100 [00:20<00:03,  4.35it/s]Scoring AR:  85%|████████▌ | 85/100 [00:20<00:03,  4.01it/s]Scoring AR:  86%|████████▌ | 86/100 [00:21<00:03,  4.01it/s]Scoring AR:  87%|████████▋ | 87/100 [00:21<00:03,  4.04it/s]Scoring AR:  88%|████████▊ | 88/100 [00:21<00:03,  3.38it/s]Scoring AR:  89%|████████▉ | 89/100 [00:21<00:03,  3.38it/s]Scoring AR:  90%|█████████ | 90/100 [00:22<00:02,  3.56it/s]Scoring AR:  91%|█████████ | 91/100 [00:22<00:02,  3.69it/s]Scoring AR:  92%|█████████▏| 92/100 [00:22<00:02,  3.78it/s]Scoring AR:  93%|█████████▎| 93/100 [00:22<00:01,  3.67it/s]Scoring AR:  94%|█████████▍| 94/100 [00:23<00:01,  3.61it/s]Scoring AR:  95%|█████████▌| 95/100 [00:23<00:01,  3.73it/s]Scoring AR:  96%|█████████▌| 96/100 [00:23<00:01,  3.80it/s]Scoring AR:  97%|█████████▋| 97/100 [00:23<00:00,  4.16it/s]Scoring AR:  98%|█████████▊| 98/100 [00:24<00:00,  4.11it/s]Scoring AR:  99%|█████████▉| 99/100 [00:24<00:00,  4.08it/s]Scoring AR: 100%|██████████| 100/100 [00:24<00:00,  4.38it/s]Scoring AR: 100%|██████████| 100/100 [00:24<00:00,  4.06it/s]
+Results saved to results/ar_100_noise0.0.json
+{'bleu': 14.970919843919717, 'rougeL': np.float64(0.32323677550644425), 'distinct_2': 0.532076533483399, 'scoring_nll': 0.08020764516364436, 'model_type': 'ar', 'noise_rate': 0.0, 'train_subset_size': 100, 'eval_samples': 100, 'max_new_tokens': 128, 'dlm_steps': None}

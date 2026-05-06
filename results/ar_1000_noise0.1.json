@@ -1,0 +1,12 @@
+{
+    "bleu": 11.972898231400794,
+    "rougeL": 0.282963880202881,
+    "distinct_2": 0.48341098404630806,
+    "scoring_nll": 0.3521755833044401,
+    "model_type": "ar",
+    "noise_rate": 0.1,
+    "train_subset_size": 1000,
+    "eval_samples": 100,
+    "max_new_tokens": 128,
+    "dlm_steps": null
+}
