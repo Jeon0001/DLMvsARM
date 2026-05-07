@@ -1,2 +1,31 @@
 checkpoints/
 *.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Bulk data artifacts (regenerate via scripts/) — but keep the small,
+# human-readable manifests so collaborators can verify reproducibility.
+data/**/*.jsonl
+!data/**/manifest.json
+!data/**/summary.json
+!data/**/noise_manifest.json
+!data/**/vocab.txt
+!data/**/eda_stats.csv
+
+# Local cache
+.cache/
+
+# Logs
+*.log
+
+# wandb
+wandb/
+
+# OS
+.DS_Store
+Thumbs.db
