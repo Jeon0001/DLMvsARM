@@ -1,0 +1,44 @@
+{
+  "dataset_id": "SalmanFaroz/gigaword",
+  "seed": 42,
+  "splits": {
+    "train_full": 3803957,
+    "validation_full": 189651,
+    "test_full": 1951
+  },
+  "files": {
+    "train_clean_100.jsonl": {
+      "n": 100,
+      "sha256_prefix": "14db947f3a529a32",
+      "first_doc_preview": "a turkish court sentenced three leftist terrorists to death on friday for killing ## people in the early ####s in a camp"
+    },
+    "train_clean_500.jsonl": {
+      "n": 500,
+      "sha256_prefix": "04007ddb68e57779",
+      "first_doc_preview": "a turkish court sentenced three leftist terrorists to death on friday for killing ## people in the early ####s in a camp"
+    },
+    "train_clean_1000.jsonl": {
+      "n": 1000,
+      "sha256_prefix": "96564452afacd5ff",
+      "first_doc_preview": "a turkish court sentenced three leftist terrorists to death on friday for killing ## people in the early ####s in a camp"
+    },
+    "train_clean_5000.jsonl": {
+      "n": 5000,
+      "sha256_prefix": "ede5b76c8ce27bb4",
+      "first_doc_preview": "a turkish court sentenced three leftist terrorists to death on friday for killing ## people in the early ####s in a camp"
+    },
+    "train_clean_10000.jsonl": {
+      "n": 10000,
+      "sha256_prefix": "4014da03db3cc18f",
+      "first_doc_preview": "a turkish court sentenced three leftist terrorists to death on friday for killing ## people in the early ####s in a camp"
+    },
+    "valid_clean_500.jsonl": {
+      "n": 500,
+      "sha256_prefix": "29a2b0f393bbdd51"
+    },
+    "test_clean_1951.jsonl": {
+      "n": 1951,
+      "sha256_prefix": "0416e6e6c413ca7e"
+    }
+  }
+}

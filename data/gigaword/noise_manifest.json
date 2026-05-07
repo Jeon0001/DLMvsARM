@@ -1,0 +1,384 @@
+{
+  "seed": 42,
+  "min_words": 5,
+  "noise_types": [
+    "swap",
+    "delete",
+    "replace"
+  ],
+  "noise_ratios": [
+    0.1,
+    0.2,
+    0.3
+  ],
+  "subset_sizes": [
+    100,
+    500,
+    1000,
+    5000,
+    10000
+  ],
+  "vocab_size": 11829,
+  "files": {
+    "train_noisy_100_swap_10.jsonl": {
+      "n": 100,
+      "noise_type": "swap",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "e1302c96ceb70d2b",
+      "n_changed": 92,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_swap_20.jsonl": {
+      "n": 100,
+      "noise_type": "swap",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "7069e7a1708f128d",
+      "n_changed": 99,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_swap_30.jsonl": {
+      "n": 100,
+      "noise_type": "swap",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "0eb4d4648e29dfcb",
+      "n_changed": 99,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_delete_10.jsonl": {
+      "n": 100,
+      "noise_type": "delete",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "6812c7fab061605c",
+      "n_changed": 95,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_delete_20.jsonl": {
+      "n": 100,
+      "noise_type": "delete",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "3be220a321abf229",
+      "n_changed": 99,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_delete_30.jsonl": {
+      "n": 100,
+      "noise_type": "delete",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "a68aaecb3efe2424",
+      "n_changed": 100,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_replace_10.jsonl": {
+      "n": 100,
+      "noise_type": "replace",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "fa123343bb77d07f",
+      "n_changed": 97,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_replace_20.jsonl": {
+      "n": 100,
+      "noise_type": "replace",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "10f93a1fc5c6210a",
+      "n_changed": 100,
+      "n_skipped_short": 0
+    },
+    "train_noisy_100_replace_30.jsonl": {
+      "n": 100,
+      "noise_type": "replace",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "4581836eccd7364c",
+      "n_changed": 100,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_swap_10.jsonl": {
+      "n": 500,
+      "noise_type": "swap",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "148f6feb641194da",
+      "n_changed": 476,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_swap_20.jsonl": {
+      "n": 500,
+      "noise_type": "swap",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "f6c5a03fd5c62045",
+      "n_changed": 500,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_swap_30.jsonl": {
+      "n": 500,
+      "noise_type": "swap",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "a0446fc7385b1885",
+      "n_changed": 499,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_delete_10.jsonl": {
+      "n": 500,
+      "noise_type": "delete",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "49ab8faaad5adef6",
+      "n_changed": 476,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_delete_20.jsonl": {
+      "n": 500,
+      "noise_type": "delete",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "ca4c5026c42ba16a",
+      "n_changed": 498,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_delete_30.jsonl": {
+      "n": 500,
+      "noise_type": "delete",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "02c09c93f284b9e5",
+      "n_changed": 500,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_replace_10.jsonl": {
+      "n": 500,
+      "noise_type": "replace",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "6f9df6d3da9f3efa",
+      "n_changed": 466,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_replace_20.jsonl": {
+      "n": 500,
+      "noise_type": "replace",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "470088f767a9a893",
+      "n_changed": 499,
+      "n_skipped_short": 0
+    },
+    "train_noisy_500_replace_30.jsonl": {
+      "n": 500,
+      "noise_type": "replace",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "be00a9791c7a9c0c",
+      "n_changed": 500,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_swap_10.jsonl": {
+      "n": 1000,
+      "noise_type": "swap",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "ad3aab94957b317b",
+      "n_changed": 927,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_swap_20.jsonl": {
+      "n": 1000,
+      "noise_type": "swap",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "7a83fb19656426cd",
+      "n_changed": 997,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_swap_30.jsonl": {
+      "n": 1000,
+      "noise_type": "swap",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "159bb6472e5e2c72",
+      "n_changed": 998,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_delete_10.jsonl": {
+      "n": 1000,
+      "noise_type": "delete",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "39639222ae1e7e2e",
+      "n_changed": 944,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_delete_20.jsonl": {
+      "n": 1000,
+      "noise_type": "delete",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "1689e5dc949f7b83",
+      "n_changed": 996,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_delete_30.jsonl": {
+      "n": 1000,
+      "noise_type": "delete",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "8687eaf07b7b1ff9",
+      "n_changed": 1000,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_replace_10.jsonl": {
+      "n": 1000,
+      "noise_type": "replace",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "fa196f68fa28d1e8",
+      "n_changed": 951,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_replace_20.jsonl": {
+      "n": 1000,
+      "noise_type": "replace",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "f47f0da70607d88a",
+      "n_changed": 993,
+      "n_skipped_short": 0
+    },
+    "train_noisy_1000_replace_30.jsonl": {
+      "n": 1000,
+      "noise_type": "replace",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "96029e2e6bf858e6",
+      "n_changed": 1000,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_swap_10.jsonl": {
+      "n": 5000,
+      "noise_type": "swap",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "6e131b75e919bc37",
+      "n_changed": 4690,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_swap_20.jsonl": {
+      "n": 5000,
+      "noise_type": "swap",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "d8c5573392ccc1f1",
+      "n_changed": 4978,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_swap_30.jsonl": {
+      "n": 5000,
+      "noise_type": "swap",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "cbbc8bc2f298ed7f",
+      "n_changed": 4998,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_delete_10.jsonl": {
+      "n": 5000,
+      "noise_type": "delete",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "41075e18d125b9e9",
+      "n_changed": 4735,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_delete_20.jsonl": {
+      "n": 5000,
+      "noise_type": "delete",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "ecbc2a14ebb9c502",
+      "n_changed": 4988,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_delete_30.jsonl": {
+      "n": 5000,
+      "noise_type": "delete",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "dbb5493b2cae276a",
+      "n_changed": 4998,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_replace_10.jsonl": {
+      "n": 5000,
+      "noise_type": "replace",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "a4bd09b50e53816f",
+      "n_changed": 4737,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_replace_20.jsonl": {
+      "n": 5000,
+      "noise_type": "replace",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "bccf60ae67a5f923",
+      "n_changed": 4988,
+      "n_skipped_short": 0
+    },
+    "train_noisy_5000_replace_30.jsonl": {
+      "n": 5000,
+      "noise_type": "replace",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "b2c1ef97cb8255c2",
+      "n_changed": 4995,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_swap_10.jsonl": {
+      "n": 10000,
+      "noise_type": "swap",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "600fb476cc053c69",
+      "n_changed": 9434,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_swap_20.jsonl": {
+      "n": 10000,
+      "noise_type": "swap",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "9ca2b3a5f99310b3",
+      "n_changed": 9936,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_swap_30.jsonl": {
+      "n": 10000,
+      "noise_type": "swap",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "b1ba580fcbdbf116",
+      "n_changed": 9997,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_delete_10.jsonl": {
+      "n": 10000,
+      "noise_type": "delete",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "09403766c0ac4766",
+      "n_changed": 9495,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_delete_20.jsonl": {
+      "n": 10000,
+      "noise_type": "delete",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "b02a123c8b8e7cca",
+      "n_changed": 9961,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_delete_30.jsonl": {
+      "n": 10000,
+      "noise_type": "delete",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "ab700d28d9e59112",
+      "n_changed": 9995,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_replace_10.jsonl": {
+      "n": 10000,
+      "noise_type": "replace",
+      "noise_ratio": 0.1,
+      "sha256_prefix": "f2c70293f059e6c9",
+      "n_changed": 9502,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_replace_20.jsonl": {
+      "n": 10000,
+      "noise_type": "replace",
+      "noise_ratio": 0.2,
+      "sha256_prefix": "45a09c7fb47910e5",
+      "n_changed": 9962,
+      "n_skipped_short": 0
+    },
+    "train_noisy_10000_replace_30.jsonl": {
+      "n": 10000,
+      "noise_type": "replace",
+      "noise_ratio": 0.3,
+      "sha256_prefix": "e263191fb1414bcb",
+      "n_changed": 9999,
+      "n_skipped_short": 0
+    }
+  }
+}
