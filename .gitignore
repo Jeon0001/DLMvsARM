@@ -17,6 +17,10 @@ data/**/*.jsonl
 !data/**/vocab.txt
 !data/**/eda_stats.csv
 
+# Formatted training inputs are intentionally committed.
+!formatted_data/
+!formatted_data/**
+
 # Local cache
 .cache/
 

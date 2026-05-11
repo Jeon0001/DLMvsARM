@@ -1,0 +1,35 @@
+{
+  "source": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size",
+  "notes": [
+    "External IWSLT is loaded with datasets.load_from_disk.",
+    "Translation direction is src=en to tgt=de.",
+    "Files are clean only; noisy_source equals the clean src."
+  ],
+  "files": {
+    "train_clean_100.jsonl": {
+      "source_dir": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size\\iwslt_100",
+      "split": "train",
+      "n": 100
+    },
+    "train_clean_500.jsonl": {
+      "source_dir": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size\\iwslt_500",
+      "split": "train",
+      "n": 500
+    },
+    "train_clean_1000.jsonl": {
+      "source_dir": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size\\iwslt_1000",
+      "split": "train",
+      "n": 1000
+    },
+    "train_clean_5000.jsonl": {
+      "source_dir": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size\\iwslt_5000",
+      "split": "train",
+      "n": 5000
+    },
+    "train_clean_10000.jsonl": {
+      "source_dir": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\iwslt2017_multiple_size\\iwslt_10000",
+      "split": "train",
+      "n": 10000
+    }
+  }
+}

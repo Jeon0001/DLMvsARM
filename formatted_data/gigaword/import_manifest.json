@@ -1,0 +1,53 @@
+{
+  "source": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets",
+  "source_dataset": "walzen/gigaword",
+  "notes": [
+    "External Gigaword uses columns document/summary.",
+    "document was mapped from the source article column.",
+    "Clean subset files are copied into the canonical formatted_data/gigaword directory."
+  ],
+  "files": {
+    "train_clean_100.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\train_100.jsonl",
+      "source_name": "train_100.jsonl",
+      "split": "train",
+      "n": 100
+    },
+    "train_clean_500.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\train_500.jsonl",
+      "source_name": "train_500.jsonl",
+      "split": "train",
+      "n": 500
+    },
+    "train_clean_1000.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\train_1000.jsonl",
+      "source_name": "train_1000.jsonl",
+      "split": "train",
+      "n": 1000
+    },
+    "train_clean_5000.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\train_5000.jsonl",
+      "source_name": "train_5000.jsonl",
+      "split": "train",
+      "n": 5000
+    },
+    "train_clean_10000.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\train_10000.jsonl",
+      "source_name": "train_10000.jsonl",
+      "split": "train",
+      "n": 10000
+    },
+    "valid_clean_1000.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\validation_1000.jsonl",
+      "source_name": "validation_1000.jsonl",
+      "split": "validation",
+      "n": 1000
+    },
+    "test_clean_1951.jsonl": {
+      "source_file": "C:\\Users\\SUBEEN\\Desktop\\develop\\CS570\\dataset\\gigaword_10k_size_subsets\\jsonl\\test_full.jsonl",
+      "source_name": "test_full.jsonl",
+      "split": "test",
+      "n": 1951
+    }
+  }
+}
