@@ -48,6 +48,8 @@ def parse_args():
     )
     p.add_argument("--model_type", choices=["ar", "dlm"], required=True)
     p.add_argument("--dataset", default="iwslt2017")
+    p.add_argument("--data_dir", default=None,
+                   help="Optional local CSV directory for dataset subsets.")
     p.add_argument("--subset_size", type=int, default=1000)
     p.add_argument("--noise_rate", type=float, default=0.0)
     p.add_argument("--batch_size", type=int, default=2)
@@ -177,7 +179,7 @@ def main():
 
     # ---- Data ----
     dataset, src_col, tgt_col = prepare_dataset(
-        args.dataset, args.subset_size, args.noise_rate
+        args.dataset, args.subset_size, args.noise_rate, data_dir=args.data_dir
     )
 
     def tokenize_function(examples):

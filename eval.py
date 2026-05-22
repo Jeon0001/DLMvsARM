@@ -46,6 +46,10 @@ def parse_args():
     p.add_argument("--model_type", choices=["ar", "dlm"], required=True)
     p.add_argument("--checkpoint_dir", required=True)
     p.add_argument("--dataset", default="iwslt2017")
+    p.add_argument("--data_dir", default=None,
+                   help="Optional local CSV directory for dataset subsets.")
+    p.add_argument("--eval_split", default="validation",
+                   help="Held-out dataset split used for evaluation.")
     p.add_argument("--train_subset_size", type=int, required=True,
                    help="Training subset size used (100/500/1000/5000). Used as x-axis in plots.")
     p.add_argument("--eval_samples", type=int, default=100,
@@ -271,7 +275,8 @@ def main():
 
     # [FIX-7] subset_size is explicit
     dataset, src_col, tgt_col = prepare_dataset(
-        args.dataset, args.eval_samples, args.noise_rate
+        args.dataset, args.eval_samples, args.noise_rate,
+        split=args.eval_split, data_dir=args.data_dir
     )
 
     # Generation metrics
@@ -300,6 +305,8 @@ def main():
         "noise_rate":        args.noise_rate,
         "train_subset_size": args.train_subset_size,  # x-axis: training size
         "eval_samples":      args.eval_samples,        # how many examples evaluated
+        "eval_split":        args.eval_split,
+        "data_dir":          args.data_dir,
         "max_new_tokens":    args.max_new_tokens,
         "dlm_steps":         args.dlm_steps if args.model_type == "dlm" else None,
     }

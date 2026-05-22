@@ -17,6 +17,15 @@ NOISE_RATES=(0.0 0.1 0.3)
 SUBSET_SIZES=(100 500 1000 5000)
 GPUS=(0 1 2 3)
 
+DATASET="${DATASET:-gigaword}"
+DATA_DIR="${DATA_DIR:-/root/ssd/dataset/gigaword_10k_size_subsets/csv}"
+EVAL_SPLIT="${EVAL_SPLIT:-validation}"
+
+DATA_ARGS=(--dataset "$DATASET")
+if [ -n "$DATA_DIR" ]; then
+    DATA_ARGS+=(--data_dir "$DATA_DIR")
+fi
+
 export WANDB_MODE=offline
 
 mkdir -p checkpoints results plots
@@ -24,6 +33,9 @@ mkdir -p checkpoints results plots
 echo "============================================================"
 echo " Fair DLM vs ARM — Experiment Runner"
 echo " Models     : ${MODELS[*]}"
+echo " Dataset    : $DATASET"
+echo " Data dir   : ${DATA_DIR:-<huggingface>}"
+echo " Eval split : $EVAL_SPLIT"
 echo " Noise rates: ${NOISE_RATES[*]}"
 echo " Sizes      : ${SUBSET_SIZES[*]}  (all parallel, 1 GPU each)"
 echo "============================================================"
@@ -60,7 +72,7 @@ for MODEL in "${MODELS[@]}"; do
                     --model_type "$MODEL" \
                     --subset_size "$SIZE" \
                     --noise_rate "$NOISE" \
-                    --dataset "iwslt2017" \
+                    "${DATA_ARGS[@]}" \
                     --batch_size 2 \
                     --epochs 3 \
                     --output_dir checkpoints \
@@ -83,15 +95,16 @@ for MODEL in "${MODELS[@]}"; do
 
             CUDA_VISIBLE_DEVICES=$GPU python3 eval.py \
                 --model_type "$MODEL" \
-                --checkpoint_dir "checkpoints/${MODEL}_iwslt2017_${SIZE}_noise${NOISE}" \
-                --dataset "iwslt2017" \
+                --checkpoint_dir "checkpoints/${MODEL}_${DATASET}_${SIZE}_noise${NOISE}" \
+                "${DATA_ARGS[@]}" \
+                --eval_split "$EVAL_SPLIT" \
                 --train_subset_size "$SIZE" \
                 --eval_samples 100 \
                 --noise_rate "$NOISE" \
                 --max_new_tokens 128 \
                 $( [ "$MODEL" = "dlm" ] && echo "--dlm_steps 64" ) \
-                --output_file "results/${MODEL}_${SIZE}_noise${NOISE}.json" \
-                > results/eval_${MODEL}_${SIZE}_noise${NOISE}.log 2>&1 &
+                --output_file "results/${MODEL}_${DATASET}_${SIZE}_noise${NOISE}.json" \
+                > results/eval_${MODEL}_${DATASET}_${SIZE}_noise${NOISE}.log 2>&1 &
 
             EVAL_PIDS+=($!)
         done
